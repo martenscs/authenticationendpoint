@@ -64,10 +64,7 @@
     <div class="container-fluid"><br></div>
     <div class="container-fluid">
         <div class="pull-left brand float-remove-xs text-center-xs">
-            <a href="#">
-                <img src="images/logo-inverse.svg" alt="wso2" title="wso2" class="logo">
-                <h1><em>Identity Server</em></h1>
-            </a>
+
         </div>
     </div>
 </header>
@@ -162,8 +159,7 @@
 <!-- footer -->
 <footer class="footer">
     <div class="container-fluid">
-        <p>WSO2 Identity Server | &copy; <script>document.write(new Date().getFullYear());</script> <a href="http://wso2.com/" target="_blank"><i class="icon fw fw-wso2"></i> Inc</a>. All Rights Reserved.</p>
-    </div>
+           </div>
 </footer>
 
 <script src="libs/jquery_1.11.3/jquery-1.11.3.js"></script>
