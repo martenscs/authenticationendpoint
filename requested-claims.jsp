@@ -127,7 +127,7 @@
     <!-- footer -->
     <footer class="footer">
         <div class="container-fluid">
-            <p>WSO2 Identity Server | &copy;
+            <p>Trimble Identity Server | &copy;
                 <script>document.write(new Date().getFullYear());</script>
                 <a href="http://wso2.com/" target="_blank"><i class="icon fw fw-wso2"></i> Inc</a>. All Rights Reserved.
             </p>
