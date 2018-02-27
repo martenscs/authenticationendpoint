@@ -55,7 +55,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-        <link rel="icon" href="images/favicon.png" type="image/x-icon"/>
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
         <link href="libs/bootstrap_3.3.5/css/bootstrap.min.css" rel="stylesheet">
         <link href="css/Roboto.css" rel="stylesheet">
         <link href="css/custom-common.css" rel="stylesheet">

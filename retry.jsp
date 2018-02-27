@@ -37,9 +37,9 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>WSO2 Identity Server</title>
+        <title>Identity Server</title>
 
-        <link rel="icon" href="images/favicon.png" type="image/x-icon"/>
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
         <link href="libs/bootstrap_3.3.5/css/bootstrap.min.css" rel="stylesheet">
         <link href="css/Roboto.css" rel="stylesheet">
         <link href="css/custom-common.css" rel="stylesheet">
@@ -58,11 +58,9 @@
         <div class="container-fluid"><br></div>
         <div class="container-fluid">
             <div class="pull-left brand float-remove-xs text-center-xs">
-                <a href="#">
-                    <img src="images/logo-inverse.svg" alt="wso2" title="wso2" class="logo">
-
-                    <h1><em>Identity Server</em></h1>
-                </a>
+              <a href="#" class="m-l-10">
+                <img src="images/trimble-logo-white.png" alt="Trimble">
+              </a>
             </div>
         </div>
     </header>
@@ -91,10 +89,7 @@
     <!-- footer -->
     <footer class="footer">
         <div class="container-fluid">
-            <p>WSO2 Identity Server | &copy;
-                <script>document.write(new Date().getFullYear());</script>
-                <a href="http://wso2.com/" target="_blank"><i class="icon fw fw-wso2"></i> Inc</a>. All Rights Reserved.
-            </p>
+           <span>© Copyright 2018, Trimble Inc.</span>
         </div>
     </footer>
 

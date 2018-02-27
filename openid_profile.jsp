@@ -38,7 +38,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>OpenID2.0 Profile</title>
 
-        <link rel="icon" href="images/favicon.png" type="image/x-icon"/>
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
         <link href="libs/bootstrap_3.3.5/css/bootstrap.min.css" rel="stylesheet">
         <link href="css/Roboto.css" rel="stylesheet">
         <link href="css/custom-common.css" rel="stylesheet">
@@ -166,11 +166,8 @@
 
     <!-- footer -->
     <footer class="footer">
-        <div class="container-fluid">
-            <p>WSO2 Identity Server | &copy;
-                <script>document.write(new Date().getFullYear());</script>
-                <a href="http://wso2.com/" target="_blank"><i class="icon fw fw-wso2"></i> Inc</a>. All Rights Reserved.
-            </p>
+             <div class="container-fluid">
+           <span>© Copyright 2018, Trimble Inc.</span>
         </div>
     </footer>
 

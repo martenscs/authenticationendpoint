@@ -29,7 +29,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Identity Server</title>
 
-    <link rel="icon" href="images/favicon.png" type="image/x-icon"/>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
     <link href="libs/bootstrap_3.3.5/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/Roboto.css" rel="stylesheet">
     <link href="css/custom-common.css" rel="stylesheet">
@@ -62,7 +62,9 @@
     <div class="container-fluid"><br></div>
     <div class="container-fluid">
         <div class="pull-left brand float-remove-xs text-center-xs">
-     
+            <a href="#" class="m-l-10">
+                <img src="images/trimble-logo-white.png" alt="Trimble">
+              </a>
         </div>
     </div>
 </header>
@@ -127,7 +129,7 @@
 
 <!-- footer -->
 <footer class="footer">
-   
+              <span>© Copyright 2018, Trimble Inc.</span>
 </footer>
 
 <script src="libs/jquery_1.11.3/jquery-1.11.3.js"></script>
