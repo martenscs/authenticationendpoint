@@ -139,7 +139,7 @@
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 form-group">
         <div class="checkbox">
             <label>
-                <input type="checkbox" id="chkRemember" name="chkRemember"> Remember me on this computer
+                <input type="checkbox" id="chkRemember" name="chkRemember" style="display:none" checked="checked"> 
             </label>
         </div>
         <br>
@@ -171,10 +171,12 @@
 
                 if (isRecoveryEPAvailable()) {
         %>
+        <!--
+        
         <a id="passwordRecoverLink" href="<%=getRecoverPasswordUrl(identityMgtEndpointContext, urlEncodedURL)%>">Forgot Password </a>
         <br/><br/>
         <a id="usernameRecoverLink" href="<%=getRecoverUsernameUrl(identityMgtEndpointContext, urlEncodedURL)%>">Forgot Username </a>
-        <br/><br/>
+        <br/><br/>-->
         <%
                 }
                 if (isSelfSignUpEPAvailable()) {
