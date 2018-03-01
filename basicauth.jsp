@@ -182,7 +182,7 @@
                 if (isSelfSignUpEPAvailable()) {
         %>
         Don't have an account?
-        <a id="registerLink" href="<%=getRegistrationUrl(identityMgtEndpointContext, urlEncodedURL)%>">Register Now</a>
+        <a id="registerLink" href="<%=getRegistrationUrl(identityMgtEndpointContext, prmstr)%>">Register Now</a>
         <%
                 }
             }
