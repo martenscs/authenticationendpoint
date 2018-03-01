@@ -202,7 +202,20 @@
         return identityMgtEndpointContext + "/recoverusername.do?callback=" + Encode.forHtmlAttribute(urlEncodedURL);
     }
     private String getRegistrationUrl(String identityMgtEndpointContext, String urlEncodedURL) {
-        return identityMgtEndpointContext + "/register.do?callback=" + Encode.forHtmlAttribute(urlEncodedURL);
+        return getRedirectUrl(urlEncodedURL);
     }
+
+    private String getRedirectUrl(String url) {
+        String[] array = url.split("&");
+        for (int i = 0; i < array.length; i++) {
+            if(array[i].startsWith("redirect_uri")){
+                String[] red = array[i].split("=");
+                return java.net.URLDecoder.decode(red[1]) + "register";
+            }
+
+        }
+        return url;
+    }
+
     %>
 </form>
