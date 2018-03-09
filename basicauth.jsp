@@ -139,7 +139,7 @@
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 form-group">
         <div class="checkbox">
             <label>
-                <input type="checkbox" id="chkRemember" name="chkRemember" style="display:none" checked="checked"> 
+                <input type="checkbox" id="chkRemember" name="chkRemember" style="display:none"> 
             </label>
         </div>
         <br>
